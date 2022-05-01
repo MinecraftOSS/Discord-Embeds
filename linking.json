@@ -2,20 +2,20 @@
   "embed": {
     "color": 8933024,
     "image": {
-      "url": "https://i.imgur.com/smkf1Td.png"
+      "url": "https://i.imgur.com/iz1MdTJ.png"
     },
     "footer": {
 
-      "text": "❗ If you are still unable to link, contact a staff member. ❗"
+      "text": "❗ If you are still unable to link, contact a moderator. ❗"
     },
     "fields": [
       {
         "name": ":link: Linking your Spigot account.",
-        "value": "`1.` - Under your [contact details](https://www.spigotmc.org/account/contact-details) on Spigot set your Discord to your full Discord name, ie `md_5#0001`\n\n`2.` - Be sure to check your privacy settings and allow people to see your contact details or else we won't see it.\n\n`3.` - Type /spigot <spigot id>"
+        "value": "`1.` - Under your [contact details](https://www.spigotmc.org/account/contact-details) on Spigot set your Discord to your full Discord name, ie `md_5#0001`\n\n`2.` - Be sure to check your privacy settings and allow people to see your contact details or else we won't see it.\n\n`3.` - Type `/spigot verify` and paste your profile url"
       },
       {
         "name": ":question: Unable to link your account?",
-        "value": "Here's some troubleshooting steps to check:\n\n•Come back later! Your info was probably cached without the id. \n\n• Check your spigot privacy settings so non-members can see your contact details.\n\n• Check your discord is spelt correctly and contains your discriminator ie. `#0001`\n\n• Your ID # is found after your username in the url of your [profile page](https://i.imgur.com/iz1MdTJ.png). :arrow_down:"
+        "value": "Here's some troubleshooting steps to check:\n\n• Come back later! Your info was probably cached without the id. \n\n• Check your spigot privacy settings so non-members can see your contact details.\n\n• Check your discord is spelt correctly and contains your discriminator ie. `#0001`\n\n• Your profile url is found under your username [profile page](https://i.imgur.com/iz1MdTJ.png). :arrow_down:"
       }
     ]
   }
