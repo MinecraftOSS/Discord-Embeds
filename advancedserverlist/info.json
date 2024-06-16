@@ -1,0 +1,59 @@
+{
+  "content": null,
+  "embeds": [
+    {
+      "title": "AdvancedServerList",
+      "description": "AdvancedServerList is a plugin for customizing your server's appearance in a player's multiplayer server list.\nCustomization may include the favicon, MOTD, player count and alike.",
+      "color": 3903743,
+      "fields": [
+        {
+          "name": "Downloads",
+          "value": "AdvancedServerList is available for download on the following sites:\n- [Modrinth](https://modrinth.com/plugin/advancedserverlist)\n- [HangarMC](https://hangar.papermc.io/Andre_601/AdvancedServerList)"
+        },
+        {
+          "name": "Useful Links",
+          "value": "- [Wiki](https://asl.andre601.ch)\n- [Source Code](https://codeberg.org/Andre601/AdvancedServerList)\n- [Issue Tracker](https://codeberg.org/Andre601/AdvancedServerList/issues)\n- [API Javadocs](https://jd.andre601.ch/asl-api)"
+        },
+        {
+          "name": "Invite",
+          "value": "Use the below link to directly invite a player to this server (Link leads to the <#1227443807876808775> channel):\n\nhttps://discord.gg/MyPTjpsgGH"
+        }
+      ],
+      "thumbnail": {
+        "url": "https://asl.andre601.ch/assets/images/favicon.png"
+      }
+    },
+    {
+      "title": "How to ask for support",
+      "description": "1. Don't ask to ask, just ask.\n2. Give a detailed explanation of your problem/question. Share screenshots if it helps you showing your problem/question in more detail.\n3. Do **not** share configuration files, log files, errors, etc. directly in chat. Instead, use a paste site.\n4. **Be Patient.** Support is given \"as is\" without any warranty or guarantee. Anyone, not just the maintainer, can give you support, but nobody is required to.",
+      "color": 3903743
+    },
+    {
+      "title": "FAQ",
+      "color": 3903743,
+      "fields": [
+        {
+          "name": "Can you support legacy color codes (`&a`, `&l`, etc)?",
+          "value": "No. The choice was deliberately made to not support legacy colors and instead only support MiniMessage formatting.\nIf you have a difficult time making the right formatting, use thier [online tool](https://webui.advntr.dev/) (Select `Server List`)."
+        },
+        {
+          "name": "How can I center the MOTD?",
+          "value": "The only way to center text is to use spaces.\nThere is no built-in feature to automatically center text. And adding one would be too complicated for little to no gain."
+        },
+        {
+          "name": "Server displays a \"Outdated Server\" message. How can I fix this?",
+          "value": "In order for AdvancedServerList to display a custom player count, it overrides the \"Outdated Server\" message usually displayed for a client when they aren't compatible with the server.\nThis also means that in order to display this text, AdvancedServerList sets the protocol of the server to an invalid value, causing the client to see it as \"outdated\" and therefore displaying the text.\n\nThis cannot be fixed, as it is a core issue with the Server/Client and something other plugins such as ServerListPlus suffer from too."
+        },
+        {
+          "name": "Can you add support for Server Status sites?",
+          "value": "Unless these sites share how they work - and more importantly what info they send - no."
+        },
+        {
+          "name": "Do you support migrating from other plugins?",
+          "value": "Yes. AdvancedServerList supports multiple plugins to migrate from. Please check the [`Other Plugins` Section](https://asl.andre601.ch/migration/#other-plugins) in the documentation for guides on how to migrate from another plugin."
+        }
+      ]
+    }
+  ],
+  "attachments": []
+}
