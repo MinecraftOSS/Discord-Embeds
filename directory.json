@@ -1,0 +1,71 @@
+{
+  "embed": {
+    "color": 1925145,
+    "author": {
+        "name": "MOSS Directory",
+        "icon_url": "https://cdn.discordapp.com/attachments/390947692710199307/1048723286785269781/MOSS-June-4.gif"
+      },
+    "fields": [
+        {
+          "name": "Advanced Backups",
+          "value": "<#1251620224482938961>",
+          "inline": true
+        },    
+        {
+          "name": "AdvancedServerList",
+          "value": "<#1227443810301247571>",
+          "inline": true
+        },
+        {
+          "name": "Chunky",
+          "value": "<#734228189370646658>",
+          "inline": true
+        },
+        {
+          "name": "EssentialsX",
+          "value": "<#426460575971672064>",
+          "inline": true
+        },
+        {
+          "name": "FactionsUUID",
+          "value": "<#880634037650214943>",
+          "inline": true
+        },
+        {
+          "name": "LiveAtlas",
+          "value": "<#930541221766635590>",
+          "inline": true
+        },
+        {
+          "name": "LWCX/BOLT",
+          "value": "<#479919881702342676>",
+          "inline": true
+        },
+        {
+          "name": "PlayerVaultsX",
+          "value": "<#426460678715473930>",
+          "inline": true
+        },
+        {
+          "name": "ProtectionStones",
+          "value": "<#676271253824339978>",
+          "inline": true
+        },
+        {
+          "name": "!Silverstone",
+          "value": "<#1226927981977403452>",
+          "inline": true
+        },
+        {
+          "name": "squaremap",
+          "value": "<#919746762028245012>",
+          "inline": true
+        },
+        {
+          "name": "Help",
+          "value": "<#390942438061113346>",
+          "inline": true
+        }
+      ]
+  }
+}
