@@ -1,0 +1,14 @@
+{
+  "content": null,
+  "embeds": [
+    {
+      "title": "Getting Support for AdvancedServerList",
+      "description": "To receive support, do the following:\n\n1. Don't ask to ask, just ask your question/State your problem.\n2. Be as detailed as possible when explaining the issue you have. Share screenshots if it helps you explain things better.\n3. Provide the latest.log file from your server/proxy.\n  - Do **not** share them directly as a file! Instead use a site such as https://mclo.gs or another paste site.\n4. **Be patient.** Receiving support is a privilege, not a right. People here will answer if they can, but aren't required to.\n\nWhile you wait, make sure to [check the documentation](https://asl.andre601.ch/) for anything that may answer your question/fix your problem.",
+      "color": 3903743,
+      "thumbnail": {
+        "url": "https://asl.andre601.ch/assets/images/favicon.png"
+      }
+    }
+  ],
+  "attachments": []
+}
