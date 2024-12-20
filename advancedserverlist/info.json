@@ -38,7 +38,7 @@
         },
         {
           "name": "How can I center the MOTD?",
-          "value": "The only way to center text is to use spaces.\nThere is no built-in feature to automatically center text. And adding one would be too complicated for little to no gain."
+          "value": "- **Since v5.2.0:** Prefix your MOTD lines with `<center>`\n- **Before v5.2.0:** Manually add spaces in front of the text to center it.\n\n-# Note: The `<center>` option uses hardcoded values for the MOTD width, spaces and only recognizes the fonts `default`, `alt` and `uniform`. The text may not look centered if different GUI scales or custom fonts are used by the client."
         },
         {
           "name": "Server displays a \"Outdated Server\" message. How can I fix this?",
