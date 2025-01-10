@@ -27,32 +27,6 @@
       "title": "How to ask for support",
       "description": "1. Don't ask to ask, just ask.\n2. Give a detailed explanation of your problem/question. Share screenshots if it helps you showing your problem/question in more detail.\n3. Do **not** share configuration files, log files, errors, etc. directly in chat. Instead, use a paste site.\n4. **Be Patient.** Support is given \"as is\" without any warranty or guarantee. Anyone, not just the maintainer, can give you support, but nobody is required to.",
       "color": 3903743
-    },
-    {
-      "title": "FAQ",
-      "color": 3903743,
-      "fields": [
-        {
-          "name": "Can you support legacy color codes (`&a`, `&l`, etc)?",
-          "value": "No. The choice was deliberately made to not support legacy colors and instead only support MiniMessage formatting.\nIf you have a difficult time making the right formatting, use thier [online tool](https://webui.advntr.dev/) (Select `Server List`)."
-        },
-        {
-          "name": "How can I center the MOTD?",
-          "value": "- **Since v5.2.0:** Prefix your MOTD lines with `<center>`\n- **Before v5.2.0:** Manually add spaces in front of the text to center it.\n\n-# Note: The `<center>` option uses hardcoded values for the MOTD width, spaces and only recognizes the fonts `default`, `alt` and `uniform`. The text may not look centered if different GUI scales or custom fonts are used by the client."
-        },
-        {
-          "name": "Server displays a \"Outdated Server\" message. How can I fix this?",
-          "value": "In order for AdvancedServerList to display a custom player count, it overrides the \"Outdated Server\" message usually displayed for a client when they aren't compatible with the server.\nThis also means that in order to display this text, AdvancedServerList sets the protocol of the server to an invalid value, causing the client to see it as \"outdated\" and therefore displaying the text.\n\nThis cannot be fixed, as it is a core issue with the Server/Client and something other plugins such as ServerListPlus suffer from too."
-        },
-        {
-          "name": "Can you add support for Server Status sites?",
-          "value": "Unless these sites share how they work - and more importantly what info they send - no."
-        },
-        {
-          "name": "Do you support migrating from other plugins?",
-          "value": "Yes. AdvancedServerList supports multiple plugins to migrate from. Please check the [`Other Plugins` Section](https://asl.andre601.ch/migration/#other-plugins) in the documentation for guides on how to migrate from another plugin."
-        }
-      ]
     }
   ],
   "attachments": []
