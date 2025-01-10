@@ -1,0 +1,43 @@
+{
+  "content": null,
+  "embeds": [
+    {
+      "description": "# AdvancedServerList FAQ\n\nThis channel lists frequently asked questions about the plugin.\nMake sure to check this first before asking any questions in <#1227443810301247571>.",
+      "color": 3903743,
+      "thumbnail": {
+        "url": "https://asl.andre601.ch/assets/images/favicon.png"
+      }
+    },
+    {
+      "title": "Does the plugin support Legacy Colors (`&`/`§`)?",
+      "description": "No, the plugin only supports MiniMessage tags.\nExplanations for why can be found on the [Formatting Wiki Page](https://asl.andre601.ch/profiles/formatting/#why-minimessage).\n\nShould you have troubles properly formatting things can you use the [Online Tool](https://webui.advntr.dev/) provided by the Kyori Adventure devs.",
+      "color": 3903743
+    },
+    {
+      "title": "How can I center the MOTD?",
+      "description": "Since [`v5.2.0`](https://codeberg.org/Andre601/AdvancedServerList/releases/tag/v5.2.0) can you center the MOTD by prefixing the lines with `<center>`.\nBefore this version are you required to manually add spaces to the start of each line.\n\n-# Please note that `<center>` uses hardcoded values for max width of the MOTD, spaces used to center the text and the text itself.\n-# It also only supports the Fonts `default`, `alt` and `uniform` through the `<font>` tag.\n-# Clients using different GUI scales and/or custom fonts may not see the text centered.",
+      "color": 3903743
+    },
+    {
+      "title": "Why does the Server display as \"outdated\" when using the playerCount text option?",
+      "description": "In order for AdvancedServerList to display a custom text for the player count, does it override the \"outdated client/server\" text that is usually displayed when a client pings the server with an incompatible version.\nThis also requires the plugin to modify the protocol version, making it \"invalid\" and displaying this text, making the server ping icon crossed out and report the server as outdated due to this.\n\nThis is not an issue only present in AdvancedServerList, but any plugin that offers to modify the player count text.",
+      "color": 3903743
+    },
+    {
+      "title": "My server shows weirdly on a Server Status page/Are Server status pages supported?",
+      "description": "Due to such pages not sharing their method of pinging a server, is it not possible for AdvancedServerList to detect those and make the Server List work properly for them.\n\nShould a site actually share how they ping the servers they list, and should there be a possible fix can I try to implement it.",
+      "color": 3903743
+    },
+    {
+      "title": "Can I migrate my configuration from other plugins?",
+      "description": "Absolutely!\nAdvancedServerList provides support to convert your configuration from the following plugins to itself:\n\n- [`ServerListPlus`](https://asl.andre601.ch/migration/plugins/serverlistplus/)\n- [`MiniMOTD`](https://asl.andre601.ch/migration/plugins/minimotd/)\n\nClick the links above to get to the respective Migration page.\nDo note that depending on the plugin, there may be specific requirements or limitations at place.",
+      "color": 3903743
+    },
+    {
+      "title": "Are Vanish Plugins supported?",
+      "description": "Vanish Plugins are supported by AdvancedServerList resulting in a player not being included in `${server playersOnline}` when they are vanished.\n\nPlease note that the number of supported Vanish plugins depends on the platform:\n\n- `Paper` (including forks)\n  - Any plugin that sets the `vanished` Metadata for the player is supported.\n- `BungeeCord`\n  - PremiumVanish\n  - SayanVanish\n- `Velocity`\n  - PremiumVanish\n  - SayanVanish",
+      "color": 3903743
+    }
+  ],
+  "attachments": []
+}
