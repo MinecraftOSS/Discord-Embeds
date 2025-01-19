@@ -2,26 +2,19 @@
   "content": null,
   "embeds": [
     {
-      "title": "AdvancedServerList",
-      "description": "AdvancedServerList is a plugin for customizing your server's appearance in a player's multiplayer server list.\nCustomization may include the favicon, MOTD, player count and alike.",
+      "description": "# AdvancedServerList\nAdvancedServerList is a plugin for customizing your server's appearance in a player's multiplayer server list.\nCustomization may include the favicon, MOTD, player count and alike.",
       "color": 3903743,
-      "fields": [
-        {
-          "name": "Downloads",
-          "value": "AdvancedServerList is available for download on the following sites:\n- [Modrinth](https://modrinth.com/plugin/advancedserverlist)\n- [HangarMC](https://hangar.papermc.io/Andre_601/AdvancedServerList)"
-        },
-        {
-          "name": "Useful Links",
-          "value": "- [Wiki](https://asl.andre601.ch)\n- [Source Code](https://codeberg.org/Andre601/AdvancedServerList)\n- [Issue Tracker](https://codeberg.org/Andre601/AdvancedServerList/issues)\n- [API Javadocs](https://jd.andre601.ch/asl-api)"
-        },
-        {
-          "name": "Invite",
-          "value": "Use the below link to directly invite a player to this server (Link leads to the <#1227443807876808775> channel):\n\nhttps://discord.gg/MyPTjpsgGH"
-        }
-      ],
       "thumbnail": {
         "url": "https://asl.andre601.ch/assets/images/favicon.png"
       }
+    },
+    {
+      "description": "## Downloads\nDownloads of the plugin are available for `Paper`/`Folia`*, `BungeeCord`/`Waterfall` and `Velocity` on the following Sites:\n\n- [Modrinth](https://modrinth.com/plugin/advancedserverlist)\n- [HangarMC](https://hangar.papermc.io/Andre_601/AdvancedServerList)\n- [Codeberg](https://codeberg.org/Andre601/AdvancedServerList/releases)\n\n-# *Support for forks may work, but is not tested.",
+      "color": 3903743
+    },
+    {
+      "description": "## Useful Links\n\n### Info\n\n- [Wiki](https://asl.andre601.ch)\n- [Javadoc (ASL-API)](https://jd.andre601.ch/asl-api)\n\n### Source and Issues\n\n- [Source Code](https://codeberg.org/Andre601/AdvancedServerList)\n- [Issue Tracker](https://codeberg.org/Andre601/AdvancedServerList/issues)\n\n### Donations\nPlease consider donating to the Plugin Author (Andre601) to support their work on the plugin.\nDonations can be done via [Ko-Fi](https://ko-fi.com/andre_601).",
+      "color": 3903743
     },
     {
       "title": "How to ask for support",
