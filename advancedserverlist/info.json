@@ -9,7 +9,7 @@
       }
     },
     {
-      "description": "## Downloads\nDownloads of the plugin are available for `Paper`/`Folia`*, `BungeeCord`/`Waterfall` and `Velocity` on the following Sites:\n\n- [Modrinth](https://modrinth.com/plugin/advancedserverlist)\n- [HangarMC](https://hangar.papermc.io/Andre_601/AdvancedServerList)\n- [Codeberg](https://codeberg.org/Andre601/AdvancedServerList/releases)\n\n-# *Support for forks may work, but is not tested.",
+      "description": "## Downloads\nDownloads of the plugin are available for `Paper`/`Folia`\\*, `BungeeCord`/`Waterfall` and `Velocity` on the following Sites:\n\n- [Modrinth](https://modrinth.com/plugin/advancedserverlist)\n- [HangarMC](https://hangar.papermc.io/Andre_601/AdvancedServerList)\n- [Codeberg](https://codeberg.org/Andre601/AdvancedServerList/releases)\n\n-# \\*Support for forks may work, but is not tested.",
       "color": 3903743
     },
     {
