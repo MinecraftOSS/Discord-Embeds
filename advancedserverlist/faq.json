@@ -9,33 +9,48 @@
       }
     },
     {
-      "title": "Does the plugin support Legacy Colors (`&`/`§`)?",
-      "description": "No, the plugin only supports MiniMessage tags.\nExplanations for why can be found on the [Formatting Wiki Page](https://asl.andre601.ch/profiles/formatting/#why-minimessage).\n\nShould you have troubles properly formatting things can you use the [Online Tool](https://webui.advntr.dev/) provided by the Kyori Adventure devs.",
+      "description": "## Does the plugin support Legacy Colors (`&`/`§`)?\n\nNo, the plugin only supports MiniMessage tags.\nExplanations for why can be found on the [Formatting Wiki Page](https://asl.andre601.ch/profiles/formatting/#why-minimessage).\n\nShould you have troubles properly formatting things can you use the [Online Tool](https://webui.advntr.dev/) provided by the Kyori Adventure devs.",
       "color": 3903743
     },
     {
-      "title": "How can I center the MOTD?",
-      "description": "Since [`v5.2.0`](https://codeberg.org/Andre601/AdvancedServerList/releases/tag/v5.2.0) can you center the MOTD by prefixing the lines with `<center>`.\nBefore this version are you required to manually add spaces to the start of each line.\n\n-# Please note that `<center>` uses hardcoded values for max width of the MOTD, spaces used to center the text and the text itself.\n-# It also only supports the Fonts `default`, `alt` and `uniform` through the `<font>` tag.\n-# Clients using different GUI scales and/or custom fonts may not see the text centered.",
+      "description": "## How can I center the MOTD?\n\nSince [`v5.2.0`](https://codeberg.org/Andre601/AdvancedServerList/releases/tag/v5.2.0) can you center the MOTD by prefixing the lines with `<center>`.\nBefore this version are you required to manually add spaces to the start of each line.\n\n-# Please note that `<center>` uses hardcoded values for max width of the MOTD, spaces used to center the text and the text itself.\n-# It also only supports the Fonts `default`, `alt` and `uniform` through the `<font>` tag.\n-# Clients using different GUI scales and/or custom fonts may not see the text centered.",
       "color": 3903743
     },
     {
-      "title": "Why does the Server display as \"outdated\" when using the playerCount text option?",
-      "description": "In order for AdvancedServerList to display a custom text for the player count, does it override the \"outdated client/server\" text that is usually displayed when a client pings the server with an incompatible version.\nThis also requires the plugin to modify the protocol version, making it \"invalid\" and displaying this text, making the server ping icon crossed out and report the server as outdated due to this.\n\nThis is not an issue only present in AdvancedServerList, but any plugin that offers to modify the player count text.",
+      "description": "## My Server shows as \"outdated\" when using `playerCount -> text`\n\nTo display a custom text for the Player count is AdvancedServerlist modifying the text that usually displays the Server type and version when a player pings the server with an incompatible Version.\nThis also means that in order to display this text, AdvancedServerList has to make the version of server and client be considered incompatible, resulting in the Ping icon being crossed out and reporting your client or the server being outdated.\n\nThis is an issue that isn't just in AdvancedServerList, but any plugin that modifies the player count text in this way.",
       "color": 3903743
     },
     {
-      "title": "My server shows weirdly on a Server Status page/Are Server status pages supported?",
-      "description": "Due to such pages not sharing their method of pinging a server, is it not possible for AdvancedServerList to detect those and make the Server List work properly for them.\n\nShould a site actually share how they ping the servers they list, and should there be a possible fix can I try to implement it.",
+      "description": "## My server shows weirdly on a Server Status page/Are Server status pages supported?\n\nThere is no way for AdvancedServerList to know, if the ping came from a player or a server list, unless the server list shares their method of checking a server's availability, in which case I can try implementing a fix, if possible.",
       "color": 3903743
     },
     {
-      "title": "Can I migrate my configuration from other plugins?",
-      "description": "Absolutely!\nAdvancedServerList provides support to convert your configuration from the following plugins to itself:\n\n- [`ServerListPlus`](https://asl.andre601.ch/migration/plugins/serverlistplus/)\n- [`MiniMOTD`](https://asl.andre601.ch/migration/plugins/minimotd/)\n\nClick the links above to get to the respective Migration page.\nDo note that depending on the plugin, there may be specific requirements or limitations at place.",
+      "description": "## Does AdvancedServerList support migrating from other plugins?\n\nYes.\nAdvancedServerList currently supports migrating from the following plugins:\n\n- [`ServerListPlus`](https://asl.andre601.ch/migration/plugins/serverlistplus/)\n- [`MiniMOTD`](https://asl.andre601.ch/migration/plugins/minimotd/)\n\nClick the links above to get to the respective Migration page.\nDo note that depending on the plugin, there may be specific requirements or limitations at place.",
       "color": 3903743
     },
     {
-      "title": "Are Vanish Plugins supported?",
-      "description": "Vanish Plugins are supported by AdvancedServerList resulting in a player not being included in `${server playersOnline}` when they are vanished.\n\nPlease note that the number of supported Vanish plugins depends on the platform:\n\n- `Paper` (including forks)\n  - Any plugin that sets the `vanished` Metadata for the player is supported.\n- `BungeeCord`\n  - PremiumVanish\n  - SayanVanish\n- `Velocity`\n  - PremiumVanish\n  - SayanVanish",
+      "description": "## Are vanish plugins supported?\n\nAdvancedServerList can support Vanish plugins, excluding vanished players from the `${server playersOnline}` placeholder.\n\nThe following Vanish plugins are supported:",
+      "color": 3903743,
+      "fields": [
+        {
+          "name": "Paper (Including forks):",
+          "value": "- Any plugin that adds the `vanished` Metadata to the player",
+          "inline": true
+        },
+        {
+          "name": "BungeeCord/Waterfall",
+          "value": "- PremiumVanish\n- SayanVanish",
+          "inline": true
+        },
+        {
+          "name": "Velocity",
+          "value": "- PremiumVanish\n- SayanVanish",
+          "inline": true
+        }
+      ]
+    },
+    {
+      "description": "## The wiki is unavailable!\n\nThe wiki is provided using a service called [Codeberg Pages](https://codeberg.page), a service similar to GitHub Pages.\nUnfortunately is this service not as stable and robust as GitHub Pages, so downtimes can happen.\n\nI have no control over the service, so if the Wiki is down due to an issue, you'll have to wait for it to come back online.\nThe Service's status can be tracked on [status.codeberg.org](https://status.codeberg.org) (See `Codeberg Pages` entry).\n\nIf you really need the Wiki, can you check the original source in the [`docs/` folder of the plugin](https://codeberg.org/Andre601/AdvancedServerList/src/branch/master/docs)",
       "color": 3903743
     }
   ],
