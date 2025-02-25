@@ -2,38 +2,35 @@
   "content": null,
   "embeds": [
     {
-      "title": "Getting Support for AdvancedServerList",
-      "description": "Please do the following things to receive proper support:",
+      "description": "# Getting Support for AdvancedServerList\n\nPlease make sure to follow the below listed instructions to receive support with the plugin.",
       "color": 3903743,
-      "fields": [
-        {
-          "name": "Don't ask to ask, just ask!",
-          "value": "Don't ask in the Chat if it's okay to ask a question, or if someone is around to help you. Simply state your problem/Ask your question directly."
-        },
-        {
-          "name": "Check that the plugin is up-to-date.",
-          "value": "Make sure you are using the latest version of the plugin available for your Server version.\nYou can find downloads on [Modrinth](https://modrinth.com/plugin/advancedserverlist) and [HangarMC](https://hangar.papermc.io/Andre_601/AdvancedServerList) and it supports the latest 1.20 and 1.21 versions (Older versions may be supported, but this is not guaranteed)."
-        },
-        {
-          "name": "Explain your issue in detail.",
-          "value": "Try to provide as much detail as you can. If it helps you explain it better, share screenshots of your problem/your question."
-        },
-        {
-          "name": "Share errors, logs and configuration files.",
-          "value": "Make sure to share any errors, log files and Server List configuration files (Files inside `profiles` folder) through a paste site.\nhttps://mclo.gs is recommended for log files, while https://pastes.dev is recommended for configuration files."
-        },
-        {
-          "name": "Check the Wiki",
-          "value": "Make sure you've checked the [ASL Wiki](https://asl.andre601.ch), as your question/issue may be answered/solved there already."
-        },
-        {
-          "name": "Be Patient",
-          "value": "Support is provided on a voluntary basis and without any guarantees. Nobody is obligated to provide you with support and may even choose to refuse it should they choose to.\n\n-# Support is also provided \"as is\" without any warranty for its correctness."
-        }
-      ],
       "thumbnail": {
         "url": "https://asl.andre601.ch/assets/images/favicon.png"
       }
+    },
+    {
+      "description": "## Don't ask to ask, just ask!\n\nDon't ask in chat if it is okay to ask a question or if anyone is around to help. Just state your question/issue and wait for a possible reply.",
+      "color": 3903743
+    },
+    {
+      "description": "## Check that the plugin is up-to-date\n\nMake sure the plugin is the latest available for your server/proxy version.\nUp-to-date downloads can be found on [Modrinth](https://modrinth.com/plugin/advancedserverlist) and [HangarMC](https://hangar.papermc.io/Andre_601/AdvamcedServerList).\n\nSupported versions are 1.20.6+ for Paper-based Servers and 1.20.x+ versions for Proxies.",
+      "color": 3903743
+    },
+    {
+      "description": "## Explain your issue\n\nMake sure to explain your issue **in detail**. If it helps to explain your issue, share screenshots.",
+      "color": 3903743
+    },
+    {
+      "description": "## Share errors, logs and configuration files\n\nPlease share any errors you may get with the plugin alongside the `latest.log` of your server/proxy and optionally your configuration files used by the plugin.\n\n**Do not share the files directly in chat or as a copy-paste!**\n\nUse a pastebin service such as [pastes.dev](https://pastes.dev) for configuration files and smaller errors.\n[mclo.gs](https://mclo.gs) is recommended for log files, as it hides sensitive information such as IPs.",
+      "color": 3903743
+    },
+    {
+      "description": "## Check the Wiki\n\nAlways make sure you've checked the [AdvancedServerList Wiki](https://asl.andre601.ch) for any noteworthy information.\n\nRecommended Pages:\n\n- [Getting Started Guide](https://asl.andre601.ch/getting-started)\n- [Profile options](https://asl.andre601.ch/profiles)\n- [Commands](https://asl.andre601.ch/commands)\n- [API Docs](https://asl.andre601.ch/api)",
+      "color": 3903743
+    },
+    {
+      "description": "## Be patient!\n\nThe support for this plugin is provided \"as is\". No user, including the developer himself, is required to provide any support towards you and can choose to refuse it for any reason.\nAny other user may also answer questions or help solve issues, meaning support may not be given by the dev himself.",
+      "color": 3903743
     }
   ],
   "attachments": []
