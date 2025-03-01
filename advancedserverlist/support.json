@@ -2,35 +2,11 @@
   "content": null,
   "embeds": [
     {
-      "description": "# Getting Support for AdvancedServerList\n\nPlease make sure to follow the below listed instructions to receive support with the plugin.",
+      "description": "# Getting Support for AdvancedServerList\nPlease make sure to follow the below listed instructions to receive support with the plugin.\n\n## Don't ask to ask, just ask!\nDon't ask if anyone is around or could help. State your issue directly and wait for a reply.\n\n## Check that the plugin is updated.\nMake sure you use the latest plugin version supporting your server/proxy version.\nDownloads can be found on [Modrinth](https://modrinth.com/plugin/advancedserverlist) and [HangarMC](https://hangar.papermc.io/Andre_601/AdvancedServerList).\n\n*Supported Server/Proxy versions are 1.20.6+ for Paper-based Servers and 1.20.x+ for Proxies.*\n\n## Explain your issue in detail\nExplain your issue in as much detail as possible. Provide configurations and logs via paste sites and screenshots if it helps explaining your problem.\n\n## Check the Wiki\nThe [AdvancedServerList Wiki](https://asl.andre601.ch) has many pages that answer common questions you may have.\nHere are some recommended pages:\n\n- [Getting Started Guide](https://asl.andre601.ch/getting-started)\n- [Profile Options](https://asl.andre601.ch/profiles)\n- [Commands](https://asl.andre601.ch/commands)\n- [API Documentation](https://asl.andre601.ch/api)\n\n## Be patient!\nSupport in this Discord is provided on a voluntary bases and \"as is\". Nobody, including the plugin dev, is obligated to help you and may even deny support for any or no reason given.\nAny user may provide you with help. There is no guaranteed support by the plugin dev.",
       "color": 3903743,
       "thumbnail": {
         "url": "https://asl.andre601.ch/assets/images/favicon.png"
       }
-    },
-    {
-      "description": "## Don't ask to ask, just ask!\n\nDon't ask in chat if it is okay to ask a question or if anyone is around to help. Just state your question/issue and wait for a possible reply.",
-      "color": 3903743
-    },
-    {
-      "description": "## Check that the plugin is up-to-date\n\nMake sure the plugin is the latest available for your server/proxy version.\nUp-to-date downloads can be found on [Modrinth](https://modrinth.com/plugin/advancedserverlist) and [HangarMC](https://hangar.papermc.io/Andre_601/AdvamcedServerList).\n\nSupported versions are 1.20.6+ for Paper-based Servers and 1.20.x+ versions for Proxies.",
-      "color": 3903743
-    },
-    {
-      "description": "## Explain your issue\n\nMake sure to explain your issue **in detail**. If it helps to explain your issue, share screenshots.",
-      "color": 3903743
-    },
-    {
-      "description": "## Share errors, logs and configuration files\n\nPlease share any errors you may get with the plugin alongside the `latest.log` of your server/proxy and optionally your configuration files used by the plugin.\n\n**Do not share the files directly in chat or as a copy-paste!**\n\nUse a pastebin service such as [pastes.dev](https://pastes.dev) for configuration files and smaller errors.\n[mclo.gs](https://mclo.gs) is recommended for log files, as it hides sensitive information such as IPs.",
-      "color": 3903743
-    },
-    {
-      "description": "## Check the Wiki\n\nAlways make sure you've checked the [AdvancedServerList Wiki](https://asl.andre601.ch) for any noteworthy information.\n\nRecommended Pages:\n\n- [Getting Started Guide](https://asl.andre601.ch/getting-started)\n- [Profile options](https://asl.andre601.ch/profiles)\n- [Commands](https://asl.andre601.ch/commands)\n- [API Docs](https://asl.andre601.ch/api)",
-      "color": 3903743
-    },
-    {
-      "description": "## Be patient!\n\nThe support for this plugin is provided \"as is\". No user, including the developer himself, is required to provide any support towards you and can choose to refuse it for any reason.\nAny other user may also answer questions or help solve issues, meaning support may not be given by the dev himself.",
-      "color": 3903743
     }
   ],
   "attachments": []
