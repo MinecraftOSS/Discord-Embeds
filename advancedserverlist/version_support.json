@@ -1,0 +1,7 @@
+{
+  "description": "# Does AdvancedServerList support version X?\n\nUnless mentioned otherwise on the resource pages or in any update, does AdvancedServerList support any future updates of Minecraft.\nThe fact that a version is not displayed on a release does not imply it's not supported, unless it's an older version.",
+  "thumbnail": {
+    "url": "https://asl.andre601.ch/assets/images/favicon.png"
+  },
+  "color": "#3b90ff"
+}
